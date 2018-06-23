@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+header{
+     width: 100%;
+     height: 110px;
+     
+     display: flex;
+     padding-top: 20px;
+}
+
+header div li{
+    display: inline;
+    margin-left: 40px;
+}
+
+.conteudo{
+    background-image: url(banner.jpg);
+    background-size: 100%;
+    color:white;
+}
+#Baixar{
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Quemsomos{
+    padding:10px;
+    text-align: center;
+}
+a{
+    text-transform: uppercase;
+}
+
+.qrcode img{
+    width:100px;
+    height: 100px;
+}
